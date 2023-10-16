@@ -6,6 +6,8 @@ import com.registration_app.service.UserService;
 import com.registration_app.utils.EmailService;
 import com.registration_app.utils.OtpService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
